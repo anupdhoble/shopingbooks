@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comic+Neue:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+body{
+    width:100%;
+   height: 100%;
+
+}
+
+nav{
+    margin: 2px 20px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    
+  }
+  
+  nav li {
+    display: inline;
+  }
+  #logo{
+    font-family: 'Caveat Brush', cursive;
+    font-size: larger;
+    color: rgb(96, 75, 233);
+}
+  nav a{
+    text-decoration: none;
+    color: #000;
+  }
+.nav-options {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    
+  }
+  
+.nav-options:hover {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
+  }
+
+.offer-cont{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.offer-cont img{
+    
+   width: 49.5%;
+
+}
+.container{
+   
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.container a{
+  text-decoration: none;
+  
+}
+.card{
+    box-shadow: 10px 10px 10px grey;
+    color: white;
+    background-color: rgb(96, 75, 233);
+    /* height: 57vh; */
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: bottom;
+    padding: 5px;
+    flex-direction: column-reverse;
+}
+.tit{
+    color: rgb(255, 255, 255);
+    
+}
+.card hr{
+    width: 80%;
+}
+.card img{
+    width: 90%;
+    margin: 10px 10px;
+    
+    border-radius: 5px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+}
+.genre-title{
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+footer{
+  height: 7vw;
+  margin-top: 10vh;
+  text-align: center;
+  color: rgb(96, 75, 233);
+  
+  
+}
+.hr2{
+  margin: 0 auto;
+  width: 90%;
+}
+.adv_containers{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+.adv_container{
+  background-color: rgb(96, 75, 233);
+ 
+  border-radius: 10px;
+  width: 95vw;
+  margin-top: 20px;
+}
+.adv_title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.left{
+  font-family: 'Kolker Brush', cursive;
+  
+}
+.boxes{
+  cursor: default;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.boxes img{
+  width: 10vw;
+  border-radius: 10px;
+}
+.boxes img:hover{
+  transform: scale(1.3);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
